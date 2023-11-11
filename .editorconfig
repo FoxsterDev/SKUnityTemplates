@@ -132,6 +132,7 @@ resharper_csharp_prefer_qualified_reference = false
 resharper_csharp_wrap_before_binary_opsign = true
 resharper_csharp_wrap_extends_list_style = chop_if_long
 resharper_csharp_wrap_parameters_style = chop_if_long
+resharper_default_private_modifier = implicit
 resharper_delete_quotes_from_solid_values = false
 resharper_disable_blank_line_changes = false
 resharper_disable_formatter = false
@@ -249,7 +250,7 @@ resharper_reorder_open_declarations = false
 resharper_resx_attribute_indent = single_indent
 resharper_resx_indent_text = OneIndent
 resharper_resx_insert_final_newline = false
-resharper_resx_linebreak_before_elements =
+resharper_resx_linebreak_before_elements = 
 resharper_resx_max_blank_lines_between_tags = 0
 resharper_resx_max_line_length = 180
 resharper_resx_pi_attribute_style = do_not_touch
@@ -403,7 +404,7 @@ resharper_xmldoc_wrap_text = true
 resharper_xml_attribute_indent = align_by_first_attribute
 resharper_xml_indent_text = OneIndent
 resharper_xml_insert_final_newline = false
-resharper_xml_linebreak_before_elements =
+resharper_xml_linebreak_before_elements = 
 resharper_xml_max_blank_lines_between_tags = 2
 resharper_xml_max_line_length = 180
 resharper_xml_pi_attribute_style = do_not_touch
@@ -1514,7 +1515,7 @@ indent_size = 4
 tab_width = 4
 
 # CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
-dotnet_diagnostic.CS8618.severity = none
+dotnet_diagnostic.cs8618.severity = none
 
 # CS8625: Cannot convert null literal to non-nullable reference type.
-dotnet_diagnostic.CS8625.severity = none
+dotnet_diagnostic.cs8625.severity = none
